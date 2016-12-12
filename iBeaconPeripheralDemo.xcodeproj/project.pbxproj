@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D03B7F291DFEB02900AF7C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B7F281DFEB02900AF7C16 /* AppDelegate.swift */; };
 		D03B7F2B1DFEB02900AF7C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B7F2A1DFEB02900AF7C16 /* ViewController.swift */; };
-		D03B7F2E1DFEB02900AF7C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03B7F2C1DFEB02900AF7C16 /* Main.storyboard */; };
 		D03B7F301DFEB02900AF7C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03B7F2F1DFEB02900AF7C16 /* Assets.xcassets */; };
 		D03B7F331DFEB02900AF7C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03B7F311DFEB02900AF7C16 /* LaunchScreen.storyboard */; };
 		D03B7F3E1DFEB02900AF7C16 /* iBeaconPeripheralDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B7F3D1DFEB02900AF7C16 /* iBeaconPeripheralDemoTests.swift */; };
@@ -29,7 +28,6 @@
 		D03B7F251DFEB02900AF7C16 /* iBeaconPeripheralDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeaconPeripheralDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03B7F281DFEB02900AF7C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D03B7F2A1DFEB02900AF7C16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D03B7F2D1DFEB02900AF7C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D03B7F2F1DFEB02900AF7C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D03B7F321DFEB02900AF7C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D03B7F341DFEB02900AF7C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			children = (
 				D03B7F281DFEB02900AF7C16 /* AppDelegate.swift */,
 				D03B7F2A1DFEB02900AF7C16 /* ViewController.swift */,
-				D03B7F2C1DFEB02900AF7C16 /* Main.storyboard */,
 				D03B7F2F1DFEB02900AF7C16 /* Assets.xcassets */,
 				D03B7F311DFEB02900AF7C16 /* LaunchScreen.storyboard */,
 				D03B7F341DFEB02900AF7C16 /* Info.plist */,
@@ -181,7 +178,6 @@
 			files = (
 				D03B7F331DFEB02900AF7C16 /* LaunchScreen.storyboard in Resources */,
 				D03B7F301DFEB02900AF7C16 /* Assets.xcassets in Resources */,
-				D03B7F2E1DFEB02900AF7C16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +219,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D03B7F2C1DFEB02900AF7C16 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D03B7F2D1DFEB02900AF7C16 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D03B7F311DFEB02900AF7C16 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -404,6 +392,7 @@
 				D03B7F441DFEB02900AF7C16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D03B7F451DFEB02900AF7C16 /* Build configuration list for PBXNativeTarget "iBeaconPeripheralDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +401,7 @@
 				D03B7F471DFEB02900AF7C16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
