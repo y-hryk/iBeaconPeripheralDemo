@@ -143,6 +143,7 @@
 				TargetAttributes = {
 					D03B7F241DFEB02900AF7C16 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 853S365UM8;
 						ProvisioningStyle = Automatic;
 					};
 					D03B7F381DFEB02900AF7C16 = {
@@ -325,7 +326,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 853S365UM8;
 				INFOPLIST_FILE = iBeaconPeripheralDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.-.iBeaconPeripheralDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -337,7 +340,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 853S365UM8;
 				INFOPLIST_FILE = iBeaconPeripheralDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.-.iBeaconPeripheralDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
